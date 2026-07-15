@@ -124,16 +124,19 @@ export default function Home() {
     <div>
       {/* HERO SECTION */}
       <div className="hero-container" id="home">
-        <video
-          ref={videoRef}
-          className="hero-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source src="vid.mp4" type="video/mp4" />
-        </video>
+      <video
+  ref={videoRef}
+  className="hero-video"
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="metadata"
+  poster="/hero.jpg"
+>
+  <source src="/vid.webm" type="video/webm" />
+  <source src="/videoo.mp4" type="video/mp4" />
+</video>
 
         {/* Navbar */}
         <nav className="navbar">
