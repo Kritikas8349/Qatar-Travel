@@ -134,8 +134,8 @@ export default function Home() {
   preload="metadata"
   poster="/hero.jpg"
 >
-  <source src="/vid.webm" type="video/webm" />
-  <source src="/videoo.mp4" type="video/mp4" />
+  {/* <source src="/vid.webm" type="video/webm" /> */}
+  <source src="/videoo-compressed.mp4" type="video/mp4" />
 </video>
 
         {/* Navbar */}
